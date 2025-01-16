@@ -1,0 +1,64 @@
+
+/*------------------------------------------------*/
+
+/* Mobile */
+@media (min-width: 484px){
+
+    .menuButton{
+        background-color: #ffd000;
+        border: 0;
+        display: flex;
+        padding: 1.5em;
+    }
+
+    .menuButton svg {
+        margin-right: 0.75em;
+        margin-left: 1em;
+    }
+
+    .menuButton p {
+        margin: 0;
+        margin-right: 1em;
+        font-size: 2em;
+    }
+
+    .container {
+        margin-left: 2em;
+    }
+}
+
+
+/*------------------------------------------------*/
+
+/* Tablets */
+@media (min-width: 768px){
+    
+}
+
+/*------------------------------------------------*/
+
+/* Laptops */
+@media (min-width: 991px){
+    
+}
+
+
+/*------------------------------------------------*/
+
+/* For visualizing width */
+
+.width-container {
+    display: none;
+}
+
+.display-width {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #E6E6E6;
+    padding: .3em;
+    padding: .3em;
+    font-size: .85em;
+}
+
