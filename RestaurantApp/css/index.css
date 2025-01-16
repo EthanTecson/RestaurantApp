@@ -35,10 +35,11 @@ body {
         font-size: 2em;
     }
 
-    /* gradient area */
     .container {
+        margin: 0;
+        padding: 1px;
         display: grid; 
-        height: 50vh;
+        height: 105em;
         background: linear-gradient(90deg, rgba(145,63,251,0.804359243697479) 0%, rgba(252,70,107,1) 71%);
         justify-content: center;
         align-items: center;
@@ -69,13 +70,15 @@ body {
         font-weight: 900;
         font-size: 3em;
         margin-left: .3em;
+        color:#272727;
+        text-shadow: 1px 1px #443c21;
     }
 
     .punchLine {
         position: absolute;
         background-color: #ffd000;
         width: 13em;
-        top: 75%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -84,9 +87,82 @@ body {
         font-weight: 800;
         font-size: 2em;
         margin-left: .3em;
+        color:#272727;
+        text-shadow: 1px 1px #443c21;
     }
 
+    .featuredItemsPrice {
+        margin: 1em 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffd000;
+        width: fit-content;
+        padding: 0.5em 3.3em;
+        flex-direction: column;
+    }
 
+    .price{
+        font-weight: 500;
+        font-size: 7em;
+        margin: 0;
+        color:#272727;
+        text-shadow: 1px 1px #443c21;
+        letter-spacing: 3px;
+    }
+
+    .item {
+        font-weight: 800;
+        font-size: 2em;
+        margin: 0;
+        color:#272727;
+        text-shadow: 1px 1px #443c21;
+    }
+
+    .featuredItems {
+        margin: 2em 0 0 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+        height: 300px;
+        width: 400px;
+
+        padding: 0;
+    }
+    
+    .featuredItems img {
+        padding: 0;
+        margin: 0;
+        width: 100px;
+        display: block;
+    }
+
+    .featuredItemsTitle {
+        padding: 0;
+
+        font-weight: 800;
+        font-size: 2em;
+        margin: 0;
+        color:#272727;
+        text-shadow: 1px 1px #443c21;
+    }
+
+    .featuredItemsText {
+        padding: 0;
+        text-align: center;
+
+        font-weight: 500;
+        font-size: 1.5em;
+        margin: 0.5em 0 0 0;
+        color: #7a7a7a;
+        text-shadow: 1px 1px #7a7a7a;
+    }
 }
 
 
@@ -124,5 +200,6 @@ body {
     padding: .3em;
     padding: .3em;
     font-size: .85em;
+    z-index: 2;
 }
 
