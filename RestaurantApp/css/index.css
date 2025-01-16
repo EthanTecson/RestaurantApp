@@ -1,14 +1,27 @@
 
+@import url('https://fonts.googleapies.com/css?family=Nunito:400,700&display=swap');
+
 /*------------------------------------------------*/
+
+html, body {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
 
 /* Mobile */
 @media (min-width: 484px){
 
     .menuButton{
+        display: flex;
         background-color: #ffd000;
         border: 0;
-        display: flex;
-        padding: 1.5em;
+        padding: 1.4em 1.2em;
+        width: fit-content;
+        margin: 8em 0em 4em 0em;
     }
 
     .menuButton svg {
@@ -22,10 +35,61 @@
         font-size: 2em;
     }
 
+    /* gradient area */
     .container {
-        margin-left: 2em;
+        display: grid; 
+        height: 50vh;
+        background: linear-gradient(90deg, rgba(145,63,251,0.804359243697479) 0%, rgba(252,70,107,1) 71%);
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
     }
+
+    .container img {
+        width: 25em;
+        object-fit: none;
+        height: 50em;
+    }
+
+    .imageDiv {
+        position: relative;
+    }
+
+    .name {
+        position: absolute;
+        background-color: #ffd000;
+        width: 13em;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+
+    .name p {
+        font-weight: 900;
+        font-size: 3em;
+        margin-left: .3em;
+    }
+
+    .punchLine {
+        position: absolute;
+        background-color: #ffd000;
+        width: 13em;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .punchLine p {
+        font-weight: 800;
+        font-size: 2em;
+        margin-left: .3em;
+    }
+
+
 }
+
+
 
 
 /*------------------------------------------------*/
