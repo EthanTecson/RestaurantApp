@@ -37,14 +37,10 @@ body {
 
     .container {
         margin: 0;
-        padding: 1px;
         display: grid; 
         height: 105em;
         background: linear-gradient(90deg, rgba(145,63,251,0.804359243697479) 0%, rgba(252,70,107,1) 71%);
         justify-content: center;
-        align-items: center;
-
-        position: relative;
     }
 
     .container img {
@@ -55,6 +51,9 @@ body {
 
     .imageDiv {
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .name {
@@ -64,6 +63,9 @@ body {
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     } 
 
     .name p {
@@ -86,7 +88,7 @@ body {
     .punchLine p {
         font-weight: 800;
         font-size: 2em;
-        margin-left: .3em;
+        margin-left: .4em;
         color:#272727;
         text-shadow: 1px 1px #443c21;
     }
@@ -122,30 +124,22 @@ body {
 
     .featuredItems {
         margin: 2em 0 0 0;
-        position: relative;
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
-
         background-color: white;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
         height: 300px;
         width: 400px;
-
-        padding: 0;
     }
     
     .featuredItems img {
         padding: 0;
         margin: 0;
         width: 100px;
-        display: block;
     }
 
     .featuredItemsTitle {
-        padding: 0;
-
         font-weight: 800;
         font-size: 2em;
         margin: 0;
@@ -154,12 +148,10 @@ body {
     }
 
     .featuredItemsText {
-        padding: 0;
         text-align: center;
 
         font-weight: 500;
         font-size: 1.5em;
-        margin: 0.5em 0 0 0;
         color: #7a7a7a;
         text-shadow: 1px 1px #7a7a7a;
     }
