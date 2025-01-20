@@ -9,103 +9,111 @@
 
     <body>
         <div id="width" class="width-container"></div>
+        
+        <div class="background">
+            <section class="container">
 
-        <section class="container">
+                <!-- Hidden for desktop view -->
+                <div class="header">
+                    <button class="menuButton">
+                        <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
+                            <path fill="black" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+                        </svg>
+                        <p>Menu</p>
+                    </button>
+                </div>
 
-            <div class="header">
-                <button class="menuButton">
-                    <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
-                        <path fill="black" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
-                    </svg>
-                    <p>Menu</p>
-                </button>
-            </div>
-            
-            <div class="imageDiv">
-
-                <img src="./assets/unsamples/TacoJoint.png" alt="Terry's Taco Joint Visual">
-
-                <div class="name"> <p>Terry's <br> Taco <br> Joint</p></div>
-
-                <div class="punchLine"> <p>Pretty Good <br> Tacos! </p> </div>
-
-            </div>
-
-            <div class="featuredItemsPrice">
-                <p class="price">$1.99</p>
-                <br>
-                <p class="item">Tacos</p>
-            </div>
-
-             <div class="featuredItemsPrice">
-                <p class="price">$3.99</p>
-                <br>
-                <p class="item">Kombucha</p>
-            </div>       
-
-            <div class="featuredItems">
-               <img src="./assets/icons/logo-taco.svg" alt="taco"> 
-               <p class="featuredItemsTitle">Tacos</p>
-               <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
-            </div>
-
-            <div class="featuredItems">
-               <img src="./assets/icons/logo-beer.svg" alt="taco"> 
-               <p class="featuredItemsTitle">Beer</p>
-               <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
-            </div>
-
-            <div class="featuredItems">
-               <img src="./assets/icons/logo-wine.svg" alt="taco"> 
-               <p class="featuredItemsTitle">Wine</p>
-               <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
-            </div>
-
-            <div class="featuredItems">
-               <img src="./assets/icons/logo-music.svg" alt="taco"> 
-               <p class="featuredItemsTitle">Music</p>
-               <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
-            </div>
-
-            <div class="featuredTaco">
-                <img src="./assets/unsamples/featuredTaco.png" alt="">
-                <p class="featuredTacoTitle">Featured <br> Taco</p>
-                 
-                <p class="featuredTacoText">Slim Profile, easy to hold and loaded with cheese.</p>
-
-                <p class="featuredTacoText">This is the one you have been waiting for</p>
-
-                <div class="learnMoreButton">
-                    <p>Learn More</p>
-                    <img src="./assets/icons/arrow.svg" alt="Arrow">
+                <!-- Hidden for mobile view-->
+                <div class="desktop-header">
+                    <div class="menu-item"></div> 
                 </div>
                 
-            </div>
+                <div class="imageDiv">
+                    <img src="./assets/unsamples/TacoJoint.png" alt="Terry's Taco Joint Visual">
 
-            <div class="instantGrams">
-                <div class="gradientContainer">
-                    <div class="instantGramGradient1"></div>
-                        <p class="instantGramsText">Instant Grams</p>
-                    <div class="instantGramGradient2"></div>
+                    <div class="name"> <p>Terry's <br> Taco <br> Joint</p></div>
+
+                    <div class="punchLine"> <p>Pretty Good <br> Tacos! </p> </div>
                 </div>
 
-                <div class="randomPics">
-                    <img src="./assets/unsamples/random1.png" alt="random1">
-                    <img src="./assets/unsamples/random2.png" alt="random2">
-                    <img src="./assets/unsamples/random3.png" alt="random3">
-                    <img src="./assets/unsamples/random4.png" alt="random4">
-                    <img src="./assets/unsamples/random5.png" alt="random5">
-                    <img src="./assets/unsamples/random6.png" alt="random6">
-                    <img src="./assets/unsamples/random7.png" alt="random7">
-                    <img src="./assets/unsamples/random8.png" alt="random8">
-                    <img src="./assets/unsamples/random9.png" alt="random9">
-                    <img src="./assets/unsamples/random10.png" alt="random10">
+            <div>
+                <div class="featuredItemsPrice">
+                    <p class="price">$1.99</p>
+                    <br>
+                    <p class="item">Tacos</p>
                 </div>
 
+                 <div class="featuredItemsPrice">
+                    <p class="price">$3.99</p>
+                    <br>
+                    <p class="item">Kombucha</p>
+                </div>       
+
+                <div class="featuredItems">
+                   <img src="./assets/icons/logo-taco.svg" alt="taco"> 
+                   <p class="featuredItemsTitle">Tacos</p>
+                   <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
+
+                <div class="featuredItems">
+                   <img src="./assets/icons/logo-beer.svg" alt="taco"> 
+                   <p class="featuredItemsTitle">Beer</p>
+                   <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
+
+                <div class="featuredItems">
+                   <img src="./assets/icons/logo-wine.svg" alt="taco"> 
+                   <p class="featuredItemsTitle">Wine</p>
+                   <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
+
+                <div class="featuredItems">
+                   <img src="./assets/icons/logo-music.svg" alt="taco"> 
+                   <p class="featuredItemsTitle">Music</p>
+                   <p class="featuredItemsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
             </div>
 
-        </section>
+                <div class="featuredTaco">
+                    <img src="./assets/unsamples/featuredTaco.png" alt="">
+                    <p class="featuredTacoTitle">Featured <br> Taco</p>
+                     
+                    <p class="featuredTacoText">Slim Profile, easy to hold and loaded with cheese.</p>
 
+                    <p class="featuredTacoText">This is the one you have been waiting for</p>
+
+                    <div class="learnMoreButton">
+                        <p>Learn More</p>
+                        <img src="./assets/icons/arrow.svg" alt="Arrow">
+                    </div>
+                    
+                </div>
+
+                <div class="instantGrams">
+                    <div class="gradientContainer">
+                        <div class="instantGramGradient1"></div>
+                            <p class="instantGramsText">Instant Grams</p>
+                        <div class="instantGramGradient2"></div>
+                    </div>
+
+                    <div class="randomPics">
+                        <img src="./assets/unsamples/random1.png" alt="random1">
+                        <img src="./assets/unsamples/random2.png" alt="random2">
+                        <img src="./assets/unsamples/random3.png" alt="random3">
+                        <img src="./assets/unsamples/random4.png" alt="random4">
+                        <img src="./assets/unsamples/random5.png" alt="random5">
+                        <img src="./assets/unsamples/random6.png" alt="random6">
+                        <img src="./assets/unsamples/random7.png" alt="random7">
+                        <img src="./assets/unsamples/random8.png" alt="random8">
+                        <img src="./assets/unsamples/random9.png" alt="random9">
+                        <img src="./assets/unsamples/random10.png" alt="random10">
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
         
         <script src="./js/main.js"></script>
     </body>
