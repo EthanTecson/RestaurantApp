@@ -13,7 +13,7 @@ body {
 }
 
 /* Mobile */
-@media (min-width: 484px){
+@media (min-width: 0px){
 
     .container {
         margin: 0;
@@ -222,10 +222,15 @@ body {
     .instantGrams {
         margin-top: 5em;
         width: 70%;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .gradientContainer {
         display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .instantGramGradient1 {
@@ -233,11 +238,9 @@ body {
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,208,0,1) 100%);
         width: 100%;
         height: 20px;
-        margin: auto auto;
     }
 
     .instantGramsText {
-        margin: auto auto;
         font-weight: 600;
         font-size: 2em;
         color:#272727;
@@ -251,7 +254,17 @@ body {
         background: linear-gradient(90deg, rgba(255,208,0,1) 0%, rgba(255,255,255,1) 100%);
         width: 100%;
         height: 20px;
-        margin: auto auto;
+    }
+
+    .randomPics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 200px;
+    }
+
+    .randomPics img {
+        transform: scale(2.5);
     }
 }
 
